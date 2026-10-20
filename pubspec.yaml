@@ -1,0 +1,25 @@
+name: mqtt_dol_starter
+description: Industrial DOL starter controller with EMQX MQTT telemetry.
+publish_to: "none"
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  mqtt_client: ^10.8.0
+  google_fonts: ^6.2.1
+  flutter_foreground_task: ^11.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/spln_logo.png
